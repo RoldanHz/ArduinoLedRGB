@@ -16,7 +16,7 @@ void setup() {
   pinMode(BLUE_PIN, OUTPUT);
   pinMode(BUTTON_PIN_FORWARD, INPUT_PULLUP); // Pin del botón de avanzar colores con resistencia pull-up interna
   pinMode(BUTTON_PIN_BACKWARD, INPUT_PULLUP); // Pin del botón de retroceder colores con resistencia pull-up interna
-  setColor(0, 0, 0); // Inicializa el LED RGB con el color rojo
+  setColor(0, 0, 0); // Inicializa el LED RGB apagado
 }
 
 void loop() {
